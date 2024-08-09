@@ -58,15 +58,16 @@ All necessary code files and any additional information required to judge your p
 This project developed a deep learning model to predict temperature anomalies, which are key indicators of climate change. The model combines Conv1D and LSTM layers to capture both local patterns and temporal dependencies in climate data.
 
 Solution Approach
-  Data Preparation: Synthetic climate data was normalized and split into training (80%) and testing (20%) sets.
-  Model Architecture: A sequential neural network was built using Conv1D and LSTM layers to analyze time-series data.
-  Training: The model was trained for 50 epochs using the Adam optimizer, with Mean Squared Error (MSE) as the loss function.
-  Evaluation: Predictions were compared against actual values, showing the model's effectiveness through visualizations.
+Data Preparation: Synthetic climate data was normalized and split into training (80%) and testing (20%) sets.
+Model Architecture: A sequential neural network was built using Conv1D and LSTM layers to analyze time-series data.
+Training: The model was trained for 50 epochs using the Adam optimizer, with Mean Squared Error (MSE) as the loss function.
+Evaluation: Predictions were compared against actual values, showing the model's effectiveness through visualizations.
+
 Success Metrics
-  The model achieved fairly accurate predictions, as evidenced by low MSE and close alignment between predicted and actual values.
+The model achieved fairly accurate predictions, as evidenced by low MSE and close alignment between predicted and actual values.
 
 Impact and Future Scope
-  This approach can be applied to real-world climate data, potentially improving climate forecasting. Future work could involve expanding the model to handle more complex datasets and enhancing its architecture for greater accuracy.
+This approach can be applied to real-world climate data, potentially improving climate forecasting. Future work could involve expanding the model to handle more complex datasets and enhancing its architecture for greater accuracy.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._

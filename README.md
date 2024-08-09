@@ -55,23 +55,21 @@ Team Member 4:
 _Include a comprehensive summary of all important information about your project solution here._
 All necessary code files and any additional information required to judge your project solution should be included in the repository. 
 
+Overview:
 This project developed a deep learning model to predict temperature anomalies, which are key indicators of climate change. The model combines Conv1D and LSTM layers to capture both local patterns and temporal dependencies in climate data.
 
-Solution Approach
-Data Preparation: Synthetic climate data was normalized and split into training (80%) and testing (20%) sets.
-Model Architecture: A sequential neural network was built using Conv1D and LSTM layers to analyze time-series data.
-Training: The model was trained for 50 epochs using the Adam optimizer, with Mean Squared Error (MSE) as the loss function.
-Evaluation: Predictions were compared against actual values, showing the model's effectiveness through visualizations.
+Solution Approach: 
+The solution approach involved normalizing synthetic climate data and splitting it into 80% training and 20% testing sets. A sequential neural network was constructed using Conv1D and LSTM layers to analyze time-series data. The model was trained for 50 epochs with the Adam optimizer and Mean Squared Error (MSE) as the loss function. Evaluation showed the model's effectiveness, with predictions closely matching actual values, as demonstrated through visualizations.
 
-Success Metrics
+Success Metrics: 
 The model achieved fairly accurate predictions, as evidenced by low MSE and close alignment between predicted and actual values.
 
-Impact and Future Scope
+Impact and Future Scope: 
 This approach can be applied to real-world climate data, potentially improving climate forecasting. Future work could involve expanding the model to handle more complex datasets and enhancing its architecture for greater accuracy.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
-[here](https://github.com/SamR81/Team-Blue---Quantum-AI-for-Climate/blob/be1ad6c34dcc91cbcc4ee91d06ff51775fd53e41/Using%20Historical%20Climate%20Data%20and%20AI%20for%20Accurate%20Predictions.pdf)
+[presentation](https://github.com/SamR81/Team-Blue---Quantum-AI-for-Climate/blob/9d31d8e63fd7d95f29b58334aa17c17f2a9c5d9e/Using%20Historical%20Climate%20Data%20and%20AI%20for%20Accurate%20Predictions.pdf)
 
 See project presentation guidelines [here](https://docs.google.com/document/d/13nWF8AxFAfFYTWEYPT3BpPdYkqtxxSAjmuXj_zcMh-E/edit?usp=sharing)
 
